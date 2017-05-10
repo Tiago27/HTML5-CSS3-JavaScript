@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #aaa url(Dark-Souls-3.jpg)no-repeat center 0px / 300px;/*imagem se ajusta ao tamanho da tela*/
+	
+	/*background: #aaa url(logo.png)repeat-x 30px 0px / 150px;
+	
+	A expressão de cima e igual a expressão de baixo
+	
+	background-color: #aaa;
+	background-image: url(logo.png);
+	background-repeat: repeat-x;
+	background-position: 30px 0px;
+	background-size: 150px;
+	*/
+}

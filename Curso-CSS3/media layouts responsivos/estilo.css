@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.conteiner{
+	overflow: auto;
+}
+
+#txtPrincipal{
+	margin-left: 216px;
+}
+
+#cxMenu{
+	width: 200px;
+	float: left;
+}
+
+#menu{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menuItem{
+	background: #D55;
+	color: #fff;
+	border: #ddd solid 1px;
+	border-radius: 4px;
+	list-style-type: none;
+	padding: 2px;
+}
+@media screen and (max-width: 500px){
+	#cxMenu{
+		float: none;
+		width: auto;
+	}
+	
+	#txtPrincipal{
+		margin-left: 5px;
+	}
+}

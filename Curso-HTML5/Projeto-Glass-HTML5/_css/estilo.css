@@ -1,0 +1,253 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@font-face{
+	font-family: 'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");/*se usa ..(dois pontos) para selecionar aquivos de uma pagina externa*/
+}
+body{
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+	font-family: Arial, sans-serif;
+}
+
+div#interface{
+	width: 900px;/*largura do conteudo do site*/
+	background-color:#ffffff;
+	margin:-20px auto 10px auto;/*margens do site/cima direida baixo esquerda*/
+	box-shadow:0px 0px 10px rgba(0, 0, 0,.5);/*sombra /deslocamento latere, vertical, espalhamento, cor*/
+	padding:10px 10px 10px 10px;/*configuração do espaço interno do objeto/cima direita baixo esquerda*/
+}
+
+p{
+ text-align: justify;
+ text-indent:50px;
+}
+
+a {
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:underline; 
+}
+
+header#cabecalho img#icone{
+	position: absolute;
+	right: 170px;
+	top: 80px;
+}
+
+header#cabecalho{
+	border-bottom: 1px #606060 solid; /*tamanho, cor, forma*/
+	height: 150px;
+	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+}
+
+header#cabecalho h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30p;
+	color: #606060;
+	text-shadow: 1px 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom:0px;	
+}
+
+header#cabecalho h2{
+	font-family: 'Titillium Web', sans-serif;
+	color: #888888;
+	font-size: 15p;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+/*formatação de imagens com legendas*/
+figure.foto-legenda{
+	position: relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	
+}
+
+figure.foto-legenda img{
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.6);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+}
+
+/*formatação do menu aula 13*/
+nav#menu{/*para poder movimentar o menu ele precisa de estar em um block/bloco*/
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;/*sumir com os marcadores da lista*/
+	text-transform: uppercase;/*texto em caixa alta*/
+	position: absolute; /*para passar porcima dos documentos*/
+	top: -20px;
+	left: 450px;	
+}
+
+nav#menu li{
+	display: inline-block;/*texto em linha*/
+	background-color:#dddddd;
+	padding: 10px; /*cria um espaço dentro da caixa de texto*/
+	margin: 4px;/*cria espaço fora da caixa de texto*/
+	transition: background-color 1s;/*efeito de trasissão quando passar o mause*/
+}
+
+nav#menu li:hover {/*efeito quando passar p mause por cima do menu*/
+	background-color: #606060;
+}
+
+nav#menu h1{
+	display:none;/*esconde a palavra menu principal*/
+}
+
+nav#menu a {/*editar links do menu*/
+	color:#000000;/*cor preta*/
+	text-decoration: none;/*remover sublinhado dos links*/
+}
+
+nav#menu a:hover {/*mudar a cor e sublinhar o link quando o ativo/mause fica encima*/
+	color:#ffffff;/*cor branca*/
+	text-decoration: underline;
+}
+/*-------------------Divisão de seções-------------------------*/
+section#corpo{
+	display:block;
+	width:500px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+}
+
+article#noticia-principal h2{
+	font-size: 13pt;
+	color: #606060;
+	background-color: #dddddd;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px  10px 0px;
+}
+
+header#cabecalho-artigo h1{
+	font-family:'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h2{
+	font-size: 13pt;
+	color: #cecece;
+	background-color: #ffffff;
+	margin: 0px;
+	
+}
+
+header#cabecalho-artigo h3{
+	font-size: 12px;
+	color: #606060;
+}
+
+.direita {
+	text-align: right;
+}
+
+/*------------Tabela-------------------*/
+table#tabelaspec{
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tabelaspec td{
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+table#tabelaspec td.ce{
+	color: #ffffff;
+	background-color: #606060;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+table#tabelaspec td.cd{
+	background-color: #cecece;
+}
+
+table#tabelaspec caption{
+	color: #888888;
+	font-size: 13pt;
+	font-weight: bolder;
+}
+
+
+table#tabelaspec caption span{
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 8pt;
+	margin-top: 10px;
+}
+
+video#filme1{
+	margin-bottom:15px;
+}
+
+aside#lateral{
+	display: block;
+	width: 350px;
+	float: right;
+	background-color: #dddddd;
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0, .5);
+}
+
+aside#lateral h1{
+	font-family: 'FonteLogo', sans-serif; 
+	font-size: 20pt;
+	color: #606060;
+	margin-top: 0px;
+}
+
+aside#lateral h2{
+	background-color: #606060;
+	font-size: 13pt;
+	color: #ffffff;
+}
+
+video#filme2{
+	display: block;
+	width: 350px;
+}
+
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+	text-align: center;
+}

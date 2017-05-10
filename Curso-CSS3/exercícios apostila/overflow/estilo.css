@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+div{
+	border:#000 solid 1px;
+	
+	overflow: visible;
+}
+
+#img1{
+	float: right;
+	border: #f00 solid 1px;
+}

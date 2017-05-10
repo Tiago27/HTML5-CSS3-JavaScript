@@ -1,0 +1,16 @@
+p{
+	border-top: #000 solid 10px;
+	border-bottom:#f00 groove 5px;
+	border-left: #00f double 15px;
+	width: 300px;
+	height: 300px;
+	
+	border-top-width: 20px;
+	border-right-width: 40px;
+	border-bottom-width: 60px;
+	border-left-width: 50px;
+	
+	border-right-color: #0f0;
+	border-right-style: dotted;
+	
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+	<link rel="stylesheet" href="estilo.css"/>
+	<meta charset="utf-8">
+	<title>Aula </title>
+ 	<script>
+		var y,n=0,ny=0,rotYINT; 
+    	
+		function rotateYDIV(){
+			y=document.getElementById("dv1");
+			clearInterval(rotYINT);
+			rotYINT=setInterval("startYRotate()", 10);
+		}
+		
+		function startYRotate(){
+			ny=ny+1;
+			y.style.transform="rotateY(" + ny + "deg) translate(200px, 200px)";
+			y.style.webkitTransform="rotateY(" + ny + "deg) translate(200px, 200px)";
+			y.style.OTransform="rotateY(" + ny + "deg) translate(200px, 200px)";
+			y.style.MozTransform="rotateY(" + ny + "deg) translate(200px, 200px)";
+			if (ny==180 || ny>=360){
+				clearInterval(rotYINT);
+				if(ny>=360){
+					ny=0;
+				}
+			}
+		}
+    </script>
+	</head>
+	
+	<body >
+		<div id="dv1" onclick="rotateYDIV()">Curso de CSS3</div>
+	</body>
+</html>

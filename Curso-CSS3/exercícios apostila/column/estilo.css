@@ -1,0 +1,11 @@
+.colunas{
+	columns: 100px;
+	column-count: 3;
+	column-gap: 100px;
+	column-rule: 4px outset #f0f;
+	column-width: 100px;
+}
+
+h1{
+	column-span: all;
+}

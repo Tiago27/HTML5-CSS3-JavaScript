@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #bbb;
+	background-image: url(logo.png), url(ff7.jpg);
+	background-size: 100px, 900px;
+	background-repeat: no-repeat;
+	background-position: 123px 340px;
+	
+}
+
+p{
+	font-size: 90pt;
+	background-color: #0F9;
+	background-image: url(quadrado.png);
+	background-repeat: repeat-x;
+	background-position: 0px 20px; 
+	color: #FFF;
+}
+

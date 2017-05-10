@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: fontCurso;
+	src:url(BRITANIC.TTF);
+}
+
+body{
+	background: linear-gradient(to top, #000, #FFF) no-repeat;
+	width: 0px auto;
+	height: 65px;
+	padding: 0px;
+}
+nav{
+	margin: 0px 0px 0px 320px;
+	padding: 0px;
+}
+
+a{
+	font-family: fontCurso;
+	font-size: 24px;
+	color: #FFF;
+	text-decoration:none;
+	vertical-align:middle;
+	display: table-cell;
+	width: 200px;
+	height: 70px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+a:hover{
+	
+	border-bottom: #0FF solid 4px;
+
+}
+

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+#b1, #b2, #b3, #pa1{
+	border: 10px dotted #000;
+	padding: 0px 100px 50px 10px;
+	background-image: url(../aula%204/quadrado.png);
+}
+
+#b1{
+	background-clip: border-box;/*Concidera a borda*/
+}
+
+#b2{
+	background-clip: padding-box;/*Não concidera a borda*/
+}
+
+#b3{
+	background-clip: content-box;/*Aplica somente onde tem  o conteudo*/
+}
+#pa1{
+	background-clip: padding-box;
+}

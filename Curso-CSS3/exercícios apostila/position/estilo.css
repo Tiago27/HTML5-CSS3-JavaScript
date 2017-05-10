@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+div{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+}
+
+#dvPai{
+	width: 300px;
+	height: 300px;
+	margin: 60px;
+	
+	background-color:#ddd;
+}
+
+#d1{
+	position: fixed;
+	background-color: #f00;
+	top: 100pxpx;
+	left: 100px;
+}

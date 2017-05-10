@@ -1,0 +1,13 @@
+#d1{
+	width: 600px;
+	height: 300px;
+	border: 1px solid #000;
+	background: repeating-radial-gradient(circle,#F00 0%, #FF0 20%);
+	/*background: linear-gradient(to top, #F00, #FF0);
+	  background: linear-gradient(180deg, #F00 0%, #FF0 20%, #00F 100%);
+	  background: repeating-radial-gradient(circle,#F00 0%, #FF0 20%);
+	  background: repeating-linear-gradient(90deg,#F00 0%, #FF0 20%);
+	  background: radial-gradient( circle, #F00 0%, #FF0 50%);
+	  background: radial-gradient(#F00 0%, #FF0 50%);
+	 */ 
+}

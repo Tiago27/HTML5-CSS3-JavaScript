@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+img{
+	margin: 0px 10px 10px 10px;
+	border:#000 solid 1px;
+	width: 150px;
+	
+}
+
+img#img1{
+	float: left;
+}
+
+img#img2{
+	float: right;
+	height: 250px;
+}
+
+.fix{
+	clear: both;
+}
+

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url(quadrado.png), url(logo.png);
+	background-repeat: no-repeat, repeat;
+	background-size: 300px, 30px;
+	background-attachment: fixed, scroll;/*imagem rolando ou fixa*/
+}
